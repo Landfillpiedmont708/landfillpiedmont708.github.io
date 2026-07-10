@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Publications — Haejoo Chung</title>
+<meta name="description" content="Peer-reviewed articles, books, and book chapters by Haejoo Chung, Professor of Health and Social Policy, Korea University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --ink:#16181d; --ink-soft:#3a3d44; --paper:#f6f6f3; --paper-2:#fbfbf9;
+  --crimson:#8a1a2c; --crimson-deep:#5c1320; --slate:#3d5a6c;
+  --mist:#e4e3dc; --line:#d8d7cf; --muted:#6a6a66; --maxw:1080px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px;-webkit-text-size-adjust:100%}
+body{font-family:"IBM Plex Sans","Pretendard Variable",Pretendard,system-ui,-apple-system,sans-serif;color:var(--ink);background:var(--paper);line-height:1.58;font-size:16.5px;-webkit-font-smoothing:antialiased}
+::selection{background:var(--crimson);color:#fff}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 32px}
+.eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--crimson);display:inline-block}
+h2.section-title{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:clamp(27px,3.6vw,38px);line-height:1.12;letter-spacing:-.015em;margin:9px 0 0}
+.section-head{margin-bottom:26px;max-width:640px}
+.section-head p{color:var(--ink-soft);margin-top:11px;font-size:15.5px}
+.rule{height:3px;background:var(--crimson);border-radius:2px;opacity:.85}
+.rule.short{max-width:160px}
+header.nav{position:sticky;top:0;z-index:50;background:rgba(246,246,243,.9);backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;gap:24px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:600;letter-spacing:-.01em;flex:none}
+.brand .dot{width:12px;height:12px;border-radius:50%;background:var(--crimson);flex:none;box-shadow:0 0 0 4px rgba(138,26,44,.12)}
+.brand small{display:block;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:10px;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;font-weight:400}
+nav ul{display:flex;gap:21px;list-style:none;align-items:center}
+nav a{font-size:14px;color:var(--ink-soft);transition:color .2s;position:relative;padding:4px 0;white-space:nowrap}
+nav a::after{content:"";position:absolute;left:0;bottom:-2px;width:0;height:1.5px;background:var(--crimson);transition:width .25s}
+nav a:hover{color:var(--crimson)} nav a:hover::after,nav a:focus-visible::after{width:100%}
+nav a.active{color:var(--crimson)} nav a.active::after{width:100%}
+.menu-btn{display:none;background:none;border:1px solid var(--line);border-radius:5px;padding:8px 10px;cursor:pointer;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;color:var(--ink)}
+.btn{font-size:14px;font-weight:500;padding:11px 20px;border-radius:6px;border:1px solid transparent;cursor:pointer;transition:transform .15s,background .2s,color .2s,border-color .2s;display:inline-flex;align-items:center;gap:8px}
+.btn.primary{background:var(--crimson);color:#fff} .btn.primary:hover{background:var(--crimson-deep)}
+.btn.ghost{border-color:var(--line);color:var(--ink)} .btn.ghost:hover{border-color:var(--crimson);color:var(--crimson)}
+.btn.sm{padding:8px 15px;font-size:13px}
+.btn:hover{transform:translateY(-1px)}
+.btn-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.hero{padding:56px 0 50px}
+.hero-grid{display:grid;grid-template-columns:1fr 268px;gap:56px;align-items:start}
+.hero h1{font-family:"Fraunces",Georgia,serif;font-weight:500;font-size:clamp(38px,5.4vw,60px);line-height:1.02;letter-spacing:-.028em}
+.hero h1 .kr{font-family:"Pretendard Variable",Pretendard,sans-serif;font-size:.40em;color:var(--muted);letter-spacing:0;margin-left:12px;font-weight:400}
+.hero .role{font-size:clamp(16px,1.9vw,19px);color:var(--crimson);margin-top:12px;font-weight:500}
+.hero .affil{color:var(--muted);font-size:15px;margin-top:4px}
+.hero p.bio{color:var(--ink-soft);margin-top:18px;max-width:60ch}
+.hero p.bio + p.bio{margin-top:11px}
+.portrait{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:12px;border:1px solid var(--line);background:var(--mist)}
+section{padding:52px 0;border-top:1px solid var(--line)}
+.model-figure{border:1px solid var(--line);border-radius:14px;background:var(--paper-2);padding:20px 18px;overflow-x:auto}
+.model-figure svg{display:block;width:100%;min-width:820px;max-width:1120px;height:auto;margin:0 auto}
+.model-cap{color:var(--muted);font-size:13.5px;margin-top:13px;max-width:76ch;line-height:1.5}
+.tagset{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tag{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;color:var(--slate);border:1px solid var(--line);border-radius:20px;padding:5px 13px;background:var(--paper-2)}
+.card-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{border:1px solid var(--line);border-radius:12px;padding:22px;background:var(--paper-2);display:flex;flex-direction:column}
+.card .meta{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--crimson)}
+.card h3{font-family:"Fraunces",serif;font-weight:500;font-size:22px;margin:7px 0 8px;line-height:1.2}
+.card p{font-size:14.5px;color:var(--ink-soft)}
+.card .card-foot{margin-top:auto;padding-top:14px}
+.coming{display:inline-flex;align-items:center;gap:7px;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);border:1px dashed var(--line);border-radius:20px;padding:7px 14px;background:transparent}
+.coming::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--crimson);opacity:.55}
+.card-grid.three{grid-template-columns:repeat(3,1fr);gap:14px}
+.card.member{padding:16px 18px;border-left:3px solid var(--crimson)}
+.card.member h3{font-size:18px;margin:0 0 5px;line-height:1.25}
+.card.member h3 .kr{font-size:14px;color:var(--muted);margin-left:7px;font-weight:400;font-family:"Pretendard Variable",Pretendard,sans-serif}
+.card.member .prog{display:block;font-size:13px;color:var(--ink-soft);margin-bottom:3px}
+.card.member .since{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11.5px;color:var(--crimson)}
+.pub-list{list-style:none;counter-reset:pub}
+.pub-list li{display:grid;grid-template-columns:38px 1fr;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line);font-size:14.4px;line-height:1.52}
+.pub-list li::before{counter-increment:pub;content:counter(pub) ".";font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12.5px;color:var(--crimson);padding-top:4px;text-align:right}
+.pub-list .title{font-weight:600}
+.pub-list .venue{color:var(--muted);font-style:italic}
+.pub-list a.doi{color:var(--crimson);font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11.5px;white-space:nowrap}
+.pub-list strong.me{color:var(--ink)}
+.pub-list .lang{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;color:var(--slate);border:1px solid var(--line);border-radius:12px;padding:1px 7px;margin-left:4px;white-space:nowrap}
+.note{color:var(--muted);font-size:13.5px;margin-top:18px;max-width:76ch}
+.info-list{list-style:none;margin-top:2px}
+.info-list li{display:block;padding:5px 2px;line-height:1.5;word-break:keep-all}
+.info-list .when{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12.5px;color:var(--crimson);margin-right:11px;white-space:nowrap}
+.info-list .when.after{margin-right:0;margin-left:10px}
+.info-list .what{display:inline}
+.info-list .what strong{font-weight:600;display:inline;font-size:15px}
+.info-list .what span{font-family:"Pretendard Variable",Pretendard,sans-serif;color:var(--muted);font-size:13.5px;display:inline-block}
+.info-list .what span::before{content:" \00b7 ";color:var(--line);font-weight:400}
+.sub-head{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:30px 0 8px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+.sub-head:first-of-type{margin-top:0}
+.subnote{font-size:13px;color:var(--muted);margin:8px 0 4px;font-style:italic}
+.subnote a{color:var(--crimson);border-bottom:1px solid rgba(138,26,44,.3)}
+.subnote a:hover{border-bottom-color:var(--crimson)}
+.proj-list{list-style:none;border-top:1px solid var(--line)}
+.proj-list li{display:grid;grid-template-columns:158px 1fr;gap:24px;padding:17px 4px;border-bottom:1px solid var(--line);transition:background .2s,padding-left .2s}
+.proj-list li:hover{background:var(--paper-2);padding-left:12px}
+.proj-list .period{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12.5px;color:var(--crimson);padding-top:4px}
+.proj-list h3{font-family:"Fraunces",serif;font-weight:500;font-size:20px;line-height:1.25;letter-spacing:-.005em}
+.proj-list .kr{font-family:"Pretendard Variable",Pretendard,sans-serif;color:var(--muted);font-size:14px;margin-top:5px}
+.proj-list .funder{color:var(--ink-soft);font-size:14px;margin-top:6px}
+.proj-list .role{display:inline-block;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);border:1px solid var(--line);border-radius:20px;padding:3px 10px;margin-top:7px;background:var(--paper-2)}
+.proj-list li.featured{background:#fdf7f8}
+.proj-list li.featured h3{color:var(--crimson-deep)}
+.contact-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:44px;align-items:stretch}
+.contact-info dt{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:16px}
+.contact-info dt:first-child{margin-top:0}
+.contact-info dd{font-size:15px;margin-top:5px}
+.contact-info dd a:hover{color:var(--crimson)}
+.map-frame{border:1px solid var(--line);border-radius:12px;overflow:hidden;min-height:300px}
+.map-frame iframe{width:100%;height:100%;min-height:300px;border:0;display:block}
+footer{background:var(--ink);color:#c9c9c4;padding:40px 0 32px}
+.foot-grid{display:flex;justify-content:space-between;align-items:flex-start;gap:36px;flex-wrap:wrap}
+footer .brand{color:#fff} footer .brand small{color:#8a8a85}
+.foot-links{display:flex;gap:26px;flex-wrap:wrap}
+.foot-links a{font-size:14px;color:#c9c9c4;transition:color .2s} .foot-links a:hover{color:#fff}
+.foot-bottom{margin-top:24px;padding-top:16px;border-top:1px solid #2c2e33;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11.5px;color:#7a7a75;letter-spacing:.04em}
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:34px}
+  .portrait{max-width:230px;order:-1}
+  .card-grid,.contact-grid{grid-template-columns:1fr;gap:30px}
+  .card-grid.three{grid-template-columns:repeat(2,1fr);gap:18px}
+  .proj-list li{grid-template-columns:1fr;gap:6px}
+  .pub-list li{grid-template-columns:30px 1fr;gap:8px}
+  nav ul{display:none}
+  nav ul.open{display:flex;position:absolute;top:64px;left:0;right:0;flex-direction:column;background:var(--paper-2);border-bottom:1px solid var(--line);padding:18px 32px;gap:16px;align-items:flex-start}
+  .menu-btn{display:inline-block}
+  section{padding:42px 0} .hero{padding:38px 0 36px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important}
+  .reveal{opacity:1;transform:none;transition:none}
+  .btn:hover,.proj-list li:hover{transform:none}
+}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html"><span class="dot" aria-hidden="true"></span><span>Haejoo Chung<small>Korea University</small></span></a>
+    <nav aria-label="Primary">
+      <button class="menu-btn" aria-expanded="false" aria-controls="primary-menu">Menu</button>
+      <ul id="primary-menu">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#research">Research</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="publications.html" class="active" aria-current="page">Publications</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="index.html#teaching">Teaching</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" style="border-top:none;padding-bottom:30px">
+  <div class="wrap reveal">
+    <span class="eyebrow">Publications</span>
+    <h1 style="font-size:clamp(34px,4.8vw,52px)">Publications</h1>
+    <p class="bio" style="max-width:64ch">Peer-reviewed articles, books, and book chapters. An asterisk marks corresponding authorship; entries are listed newest first within each category.</p>
+    <div class="btn-row">
+      <a class="btn ghost sm" href="https://scholar.google.com/citations?user=x5I8GRIAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a>
+      <a class="btn ghost sm" href="https://pure.korea.ac.kr/en/persons/haejoo-chung/" target="_blank" rel="noopener">KU research profile ↗</a>
+    </div>
+  </div>
+</section>
+<section style="padding-top:52px">
+  <div class="wrap reveal">
+      <p class="sub-head">Peer-reviewed articles · international journals</p>
+    <ol class="pub-list">
+      <li><div><strong class="me">Chung, H.</strong>*, Kim, G., Shim, H., et al. (2026). <span class="title">Mapping “Health Politics”: two conceptual traditions, 1976–2025.</span> <span class="venue">Health Politics, 1(2), e008</span>. <a class="doi" href="https://hpolitics.org/journal/view.php?number=8" target="_blank" rel="noopener">FULL TEXT ↗</a></div></li>
+      <li><div>Jeong, H. S., &amp; <strong class="me">Chung, H.</strong>* (2026). <span class="title">Media discourse on healthy cities: topic modeling of South Korean news articles (2004–2024).</span> <span class="venue">Journal of Urban Health</span>. <a class="doi" href="https://doi.org/10.1007/s11524-026-01100-3" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Kim, J., Son, S., <strong class="me">Chung, H.</strong>*, Ryu, K., Lee, D., &amp; Paeng, H. (2025). <span class="title">A two-stage concept mapping for emerging concepts: an analysis of the smart healthy city.</span> <span class="venue">Humanities and Social Sciences Communications</span>. <a class="doi" href="https://doi.org/10.1057/s41599-025-06222-8" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Hong, A., Choi, D.*, <strong class="me">Chung, H.</strong>, Kumar, P., &amp; Lee, J. (2025). <span class="title">Environmental and health monitoring in smart cities: a systematic review of trends, opportunities, and challenges.</span> <span class="venue">Sustainable Cities and Society, 130, 106491</span>. <a class="doi" href="https://doi.org/10.1016/j.scs.2025.106491" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Jeong, H. S., &amp; <strong class="me">Chung, H.</strong>* (2024). <span class="title">Bridging smart technologies and healthy cities: a scoping review using WHO’s 6P framework.</span> <span class="venue">Sustainable Cities and Society, 116, 105888</span>. <a class="doi" href="https://doi.org/10.1016/j.scs.2024.105888" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Jo, M., Oh, I., Moon, D., Kim, S., Jung-Choi, K., &amp; <strong class="me">Chung, H.</strong>* (2023). <span class="title">Maternal socioeconomic position and inequity in child deaths: an analysis of a 2012 South Korean birth cohort of 466,636 children.</span> <span class="venue">SSM – Population Health, 21, 101304</span>. <a class="doi" href="https://doi.org/10.1016/j.ssmph.2022.101304" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Sohn, M., Moon, D., O’Campo, P., Muntaner, C., &amp; <strong class="me">Chung, H.</strong>* (2022). <span class="title">Who loses more? Identifying the relationship between hospitalization and income loss.</span> <span class="venue">BMC Public Health, 22(1), 232</span>. <a class="doi" href="https://doi.org/10.1186/s12889-022-12647-6" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Yu, S., Sohn, H., Kim, H.-Y., Kim, H., Oh, K.-H., Kim, H.-J., <strong class="me">Chung, H.</strong>, &amp; Choi, H.* (2021). <span class="title">Evaluating the impact of the nationwide public–private mix (PPM) programme for tuberculosis under National Health Insurance in South Korea: a difference-in-differences analysis.</span> <span class="venue">PLOS Medicine, 18(7), e1003717</span>. <a class="doi" href="https://doi.org/10.1371/journal.pmed.1003717" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Heo, H.-H., Jeong, W., Che, X. H., &amp; <strong class="me">Chung, H.</strong>* (2020). <span class="title">A stakeholder analysis of community-led collaboration to reduce health inequity in a deprived neighbourhood in South Korea.</span> <span class="venue">Global Health Promotion, 27(2)</span>. <a class="doi" href="https://doi.org/10.1177/1757975918791517" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Sohn, M., O’Campo, P., Muntaner, C., <strong class="me">Chung, H.</strong>, &amp; Choi, M.* (2020). <span class="title">Has long-term care insurance resolved disparities in mortality for older Koreans? Examination of service type and income level.</span> <span class="venue">Social Science &amp; Medicine, 247, 112812</span>. <a class="doi" href="https://doi.org/10.1016/j.socscimed.2020.112812" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Choi, H., <strong class="me">Chung, H.</strong>*, &amp; Muntaner, C. (2019). <span class="title">Social selection in historical time: the case of tuberculosis in South Korea after the East Asian financial crisis.</span> <span class="venue">PLoS ONE, 14(5)</span>. <a class="doi" href="https://doi.org/10.1371/journal.pone.0217055" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Sohn, M., Kim, H., Sung, H., Lee, Y., Choi, H., &amp; <strong class="me">Chung, H.</strong>* (2019). <span class="title">Association of social deprivation and outdoor air pollution with pulmonary tuberculosis in spatiotemporal analysis.</span> <span class="venue">International Journal of Environmental Health Research, 29(6)</span>. <a class="doi" href="https://doi.org/10.1080/09603123.2019.1566522" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Kim, H., Choi, H.*, Yu, S., Lee, A.-Y., Kim, H.-O., Joh, J.-S., Heo, E. Y., Oh, K.-H., Kim, H. J., &amp; <strong class="me">Chung, H.</strong> (2019). <span class="title">Impact of a housing provision package on treatment outcome among homeless tuberculosis patients in South Korea.</span> <span class="venue">Asia-Pacific Journal of Public Health, 31(7)</span>. <a class="doi" href="https://doi.org/10.1177/1010539519871779" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Gunn, V.*, Muntaner, C., Ng, E., Villeneuve, M., Gea-Sanchez, M., &amp; <strong class="me">Chung, H.</strong> (2019). <span class="title">Gender equality policies, nursing professionalization, and the nursing workforce: a cross-sectional, time-series analysis of 22 countries, 2000–2015.</span> <span class="venue">International Journal of Nursing Studies, 99</span>. <a class="doi" href="https://doi.org/10.1016/j.ijnurstu.2019.103388" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Gunn, V.*, Muntaner, C., Villeneuve, M., <strong class="me">Chung, H.</strong>, &amp; Gea-Sanchez, M. (2019). <span class="title">Nursing professionalization and welfare state policies: a critical review of structural factors influencing the development of nursing and the nursing workforce.</span> <span class="venue">Nursing Inquiry, 26(1)</span>. <a class="doi" href="https://doi.org/10.1111/nin.12263" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Choi, H.*, <strong class="me">Chung, H.</strong>, Muntaner, C., Lee, M., Kim, Y., Barry, C. E., &amp; Cho, S.-N. (2016). <span class="title">The impact of social conditions on patient adherence to pulmonary tuberculosis treatment.</span> <span class="venue">International Journal of Tuberculosis and Lung Disease, 20(7)</span>. <a class="doi" href="https://doi.org/10.5588/ijtld.15.0759" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Ng, E.*, Muntaner, C., &amp; <strong class="me">Chung, H.</strong> (2016). <span class="title">Welfare states, labor markets, political dynamics, and population health: a time-series cross-sectional analysis among East and Southeast Asian nations.</span> <span class="venue">Asia-Pacific Journal of Public Health, 28(3)</span>. <a class="doi" href="https://doi.org/10.1177/1010539516628171" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Jung, Y., Byeon, J., &amp; <strong class="me">Chung, H.</strong>* (2016). <span class="title">Prescription drug use among adults with chronic conditions in South Korea.</span> <span class="venue">Asia-Pacific Journal of Public Health, 28(1)</span>. <a class="doi" href="https://doi.org/10.1177/1010539515612906" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Ng, E., <strong class="me">Chung, H.</strong>, &amp; Prins, S. J. (2015). <span class="title">Two decades of neo-Marxist class analysis and health inequalities: a critical reconstruction.</span> <span class="venue">Social Theory &amp; Health, 13(3–4), 267–287</span>. <a class="doi" href="https://doi.org/10.1057/sth.2015.17" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Ng, E., Prins, S. J., Bones-Rocha, K., Espelt, A., &amp; <strong class="me">Chung, H.</strong> (2015). <span class="title">Social class and mental health: testing exploitation as a relational determinant of depression.</span> <span class="venue">International Journal of Health Services, 45(2), 265–284</span>. <a class="doi" href="https://doi.org/10.1177/0020731414568508" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, Ng, E., Ibrahim, S., Karlsson, B., Benach, J., Espelt, A., &amp; Muntaner, C. (2013). <span class="title">Welfare state regimes, gender, and depression: a multilevel analysis of middle- and high-income countries.</span> <span class="venue">International Journal of Environmental Research and Public Health, 10(4), 1324–1341</span>. <a class="doi" href="https://doi.org/10.3390/ijerph10041324" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Afzal, Z.*, Muntaner, C., <strong class="me">Chung, H.</strong>, Mahmood, Q., Ng, E., &amp; Schrecker, T. (2013). <span class="title">Complementarities or contradictions? Scoping the health dimensions of “flexicurity” labor market policies.</span> <span class="venue">International Journal of Health Services, 43(3), 473–482</span>. <a class="doi" href="https://doi.org/10.2190/HS.43.3.f" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Benach, J., Victor, M., Ng, E., &amp; <strong class="me">Chung, H.</strong> (2013). <span class="title">Egalitarian policies and social determinants of health in Bolivarian Venezuela.</span> <span class="venue">International Journal of Health Services, 43(3), 537–549</span>. <a class="doi" href="https://doi.org/10.2190/HS.43.3.j" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, <strong class="me">Chung, H.</strong>, Murphy, K., &amp; Ng, E. (2012). <span class="title">Barriers to knowledge production, knowledge translation, and urban health policy change: ideological, economic, and political considerations.</span> <span class="venue">Journal of Urban Health, 89(6), 915–924</span>. <a class="doi" href="https://doi.org/10.1007/s11524-012-9699-1" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Ng, E., Benach, J., &amp; <strong class="me">Chung, H.</strong> (2012). <span class="title">Occupation and (social) class refer to different social mechanisms.</span> <span class="venue">Occupational and Environmental Medicine, 69(10), 770–771</span>. <a class="doi" href="https://doi.org/10.1136/oemed-2012-100728" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, <strong class="me">Chung, H.</strong>, Benach, J., &amp; Ng, E. (2012). <span class="title">Hierarchical cluster analysis of labour market regulations and population health: a taxonomy of low- and middle-income countries.</span> <span class="venue">BMC Public Health, 12(1)</span>. <a class="doi" href="https://doi.org/10.1186/1471-2458-12-286" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Rai, N., Ng, E., &amp; <strong class="me">Chung, H.</strong> (2012). <span class="title">Social class, politics, and the spirit level: why income inequality remains unexplained and unsolved.</span> <span class="venue">International Journal of Health Services, 42(3), 369–381</span>. <a class="doi" href="https://doi.org/10.2190/HS.42.3.a" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Ng, E., &amp; <strong class="me">Chung, H.</strong> (2012). <span class="title">Making power visible in global health governance.</span> <span class="venue">American Journal of Bioethics, 12(7), 63–64</span>. <a class="doi" href="https://doi.org/10.1080/15265161.2012.675401" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Benach, J., Tarafa, G., &amp; <strong class="me">Chung, H.</strong> (2011). <span class="title">The welfare state and global health: Latin America, the Arab world and the politics of social class.</span> <span class="venue">Gaceta Sanitaria, 25(6), 445–447</span>. <a class="doi" href="https://doi.org/10.1016/j.gaceta.2011.09.007" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Borrell, C., Ng, E., <strong class="me">Chung, H.</strong>, Espelt, A., Rodriguez-Sanz, M., Benach, J., &amp; O’Campo, P. (2011). <span class="title">Politics, welfare regimes, and population health: controversies and evidence.</span> <span class="venue">Sociology of Health &amp; Illness, 33(6), 946–964</span>. <a class="doi" href="https://doi.org/10.1111/j.1467-9566.2011.01339.x" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Li, Y., Ng, E., Benach, J., &amp; <strong class="me">Chung, H.</strong> (2011). <span class="title">Work or place? Assessing the concurrent effects of workplace exploitation and area-of-residence economic inequality on individual health.</span> <span class="venue">International Journal of Health Services, 41(1), 27–50</span>. <a class="doi" href="https://doi.org/10.2190/HS.41.1.c" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Borrell, C., Solà, J., Marí-Dell’Olmo, M., <strong class="me">Chung, H.</strong>, Rodríguez-Sanz, M., Benach, J., Rocha, K., &amp; Ng, E. (2011). <span class="title">Class relations and all-cause mortality: a test of Wright’s social class scheme using the Barcelona 2000 Health Interview Survey.</span> <span class="venue">International Journal of Health Services, 41(3), 431–458</span>. <a class="doi" href="https://doi.org/10.2190/HS.41.3.c" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Benach, J., <strong class="me">Chung, H.</strong>, Ng, E., &amp; Schrecker, T. (2010). <span class="title">Welfare state, labour market inequalities and health in a global context: an integrated framework. SESPAS Report 2010.</span> <span class="venue">Gaceta Sanitaria, 24(Suppl. 1), 56–61</span>. <a class="doi" href="https://doi.org/10.1016/j.gaceta.2010.09.013" target="_blank" rel="noopener">DOI ↗</a> <span class="lang">Spanish</span></div></li>
+      <li><div>Muntaner, C.*, Borrell, C., Vanroelen, C., <strong class="me">Chung, H.</strong>, Benach, J., Kim, I. H., &amp; Ng, E. (2010). <span class="title">Employment relations, social class and health: a review and analysis of conceptual and measurement alternatives.</span> <span class="venue">Social Science &amp; Medicine, 71(12), 2130–2140</span>. <a class="doi" href="https://doi.org/10.1016/j.socscimed.2010.09.038" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Benach, J.*, Muntaner, C., <strong class="me">Chung, H.</strong>, Solar, O., Santana, V., Friel, S., Houweling, T. A., &amp; Marmot, M. (2010). <span class="title">The importance of government policies in reducing employment-related health inequalities.</span> <span class="venue">BMJ, 340, c2154</span>. <a class="doi" href="https://doi.org/10.1136/bmj.c2154" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Benach, J.*, Muntaner, C., <strong class="me">Chung, H.</strong>, &amp; Benavides, F. G. (2010). <span class="title">Immigration, employment relations, and health: developing a research agenda.</span> <span class="venue">American Journal of Industrial Medicine, 53(4), 338–343</span>. <a class="doi" href="https://doi.org/10.1002/ajim.20717" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, Muntaner, C., &amp; Benach, J. (2010). <span class="title">Employment relations and global health: a typological study of world labor markets.</span> <span class="venue">International Journal of Health Services, 40(2), 229–253</span>. <a class="doi" href="https://doi.org/10.2190/HS.40.2.e" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C., Sridharan, S., <strong class="me">Chung, H.</strong>*, Solar, O., Quinlan, M., Vergara, M., &amp; Benach, J. (2010). <span class="title">The solution space: developing research and policy agendas to eliminate employment-related health inequalities.</span> <span class="venue">International Journal of Health Services, 40(2), 309–314</span>. <a class="doi" href="https://doi.org/10.2190/HS.40.2.j" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Quinlan, M.*, Muntaner, C., Solar, O., Vergara, M., Eijkemans, G., Santana, V., <strong class="me">Chung, H.</strong>, Castedo, A., &amp; Benach, J. (2010). <span class="title">Policies and interventions on employment relations and health inequalities.</span> <span class="venue">International Journal of Health Services, 40(2), 297–307</span>. <a class="doi" href="https://doi.org/10.2190/HS.40.2.i" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Kim, I.-H., Muntaner, C., <strong class="me">Chung, H.</strong>*, &amp; Benach, J. (2010). <span class="title">Case studies on employment-related health inequalities in countries representing different types of labor markets.</span> <span class="venue">International Journal of Health Services, 40(2), 255–267</span>. <a class="doi" href="https://doi.org/10.2190/HS.40.2.f" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Benach, J.*, Solar, O., Santana, V., Castedo, A., <strong class="me">Chung, H.</strong>, &amp; Muntaner, C. (2010). <span class="title">A micro-level model of employment relations and health inequalities.</span> <span class="venue">International Journal of Health Services, 40(2), 223–227</span>. <a class="doi" href="https://doi.org/10.2190/HS.40.2.d" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C., <strong class="me">Chung, H.</strong>*, Solar, O., Santana, V., Castedo, A., &amp; Benach, J. (2010). <span class="title">A macro-level model of employment relations and health inequalities.</span> <span class="venue">International Journal of Health Services, 40(2), 215–221</span>. <a class="doi" href="https://doi.org/10.2190/HS.40.2.c" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Borrell, C., Solá, J., Marí-Dell’Olmo, M., <strong class="me">Chung, H.</strong>, Rodríguez-Sanz, M., Benach, J., &amp; Noh, S. (2009). <span class="title">Capitalists, managers, professionals and mortality: findings from the Barcelona social class and all-cause mortality longitudinal study.</span> <span class="venue">Scandinavian Journal of Public Health, 37(8), 826–838</span>. <a class="doi" href="https://doi.org/10.1177/1403494809346870" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Sarkar, A.*, Muntaner, C., <strong class="me">Chung, H.</strong>, &amp; Benach, J. (2009). <span class="title">The Employment Conditions Network final report is a political, anti-neoliberal and welfare state move.</span> <span class="venue">Indian Journal of Medical Research, 130(1), 93–94</span>.</div></li>
+      <li><div>Armada, F.*, Muntaner, C., <strong class="me">Chung, H.</strong>, Williams-Brennan, L., &amp; Benach, J. (2009). <span class="title">Barrio Adentro and the reduction of health inequalities in Venezuela: an appraisal of the first years.</span> <span class="venue">International Journal of Health Services, 39(1), 161–187</span>. <a class="doi" href="https://doi.org/10.2190/HS.39.1.h" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, &amp; Muntaner, C. (2008). <span class="title">Misión Barrio Adentro: democracia participativa y salud pública en la Venezuela bolivariana.</span> <span class="venue">Revista Gerencia y Políticas de Salud, 7(14), 32–52</span>. <span class="lang">Spanish</span></div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, &amp; Muntaner, C. (2008). <span class="title">Determinantes políticos y del estado de bienestar de los indicadores de salud infantil y de los niños.</span> <span class="venue">Revista Gerencia y Políticas de Salud, 7(14), 32–52</span>. <span class="lang">Spanish</span></div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, &amp; Muntaner, C. (2008). <span class="title">Welfare regime types and global health: an emerging challenge.</span> <span class="venue">Journal of Epidemiology and Community Health, 62(4), 282–283</span>. <a class="doi" href="https://doi.org/10.1136/jech.2006.057778" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, &amp; <strong class="me">Chung, H.</strong> (2008). <span class="title">Macrosocial determinants, epidemiology, and health policy: should politics and economics be banned from social determinants of health research?</span> <span class="venue">Journal of Public Health Policy, 29(3), 299–306</span>. <a class="doi" href="https://doi.org/10.1057/jphp.2008.23" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C., Armada, F., <strong class="me">Chung, H.</strong>, Mata, R., Williams-Brennan, L., &amp; Benach, J. (2008). <span class="title">Venezuela’s Barrio Adentro: participatory democracy, South–South cooperation and health care for all.</span> <span class="venue">Social Medicine, 3(4), 232–246</span>.</div></li>
+      <li><div>Alterman, T.*, Grosch, J., Chen, X., Chrislip, D., Petersen, M., Krieg Jr., E., <strong class="me">Chung, H.</strong>, &amp; Muntaner, C. (2008). <span class="title">Examining associations between job characteristics and health: linking data from the Occupational Information Network (O*NET) to two U.S. national health surveys.</span> <span class="venue">Journal of Occupational and Environmental Medicine, 50(12), 1401–1413</span>. <a class="doi" href="https://doi.org/10.1097/JOM.0b013e318188e882" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, &amp; Muntaner, C. (2007). <span class="title">Welfare state matters: a typological multilevel analysis of wealthy countries.</span> <span class="venue">Health Policy, 80(2), 328–339</span>. <a class="doi" href="https://doi.org/10.1016/j.healthpol.2006.03.004" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div><strong class="me">Chung, H.</strong>, &amp; Muntaner, C. (2007). <span class="title">Diseases, patients, and access to medicine: a reflection on an alternative global pharmaceutical regime.</span> <span class="venue">Contrastes – Revista Cultural, 48, 151–156</span>.</div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, &amp; Muntaner, C. (2006). <span class="title">Political and welfare state determinants of infant and child health indicators: an analysis of wealthy countries.</span> <span class="venue">Social Science &amp; Medicine, 63(3), 829–842</span>. <a class="doi" href="https://doi.org/10.1016/j.socscimed.2006.01.030" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Li, Y., Xue, X., Thompson, T., <strong class="me">Chung, H.</strong>, &amp; O’Campo, P. (2006). <span class="title">County and organizational predictors of depression symptoms among low-income nursing assistants in the USA.</span> <span class="venue">Social Science &amp; Medicine, 63(6), 1454–1465</span>. <a class="doi" href="https://doi.org/10.1016/j.socscimed.2006.03.042" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, Li, Y., Xue, X., Thompson, T., O’Campo, P., <strong class="me">Chung, H.</strong>, &amp; Eaton, W. W. (2006). <span class="title">County-level socioeconomic position, work organization and depression disorder: a repeated-measures cross-classified multilevel analysis of low-income nursing home workers.</span> <span class="venue">Health &amp; Place, 12(4), 688–700</span>. <a class="doi" href="https://doi.org/10.1016/j.healthplace.2005.09.004" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, van Dussen, D. J., Li, Y., Zimmerman, S., <strong class="me">Chung, H.</strong>, &amp; Benach, J. (2006). <span class="title">Work organization, economic inequality, and depression among nursing assistants: a multilevel modeling approach.</span> <span class="venue">Psychological Reports, 98(2), 585–601</span>. <a class="doi" href="https://doi.org/10.2466/PR0.98.2.585-601" target="_blank" rel="noopener">DOI ↗</a></div></li>
+      <li><div>Muntaner, C.*, &amp; <strong class="me">Chung, H.</strong> (2005). <span class="title">Psychosocial epidemiology, social structure, and ideology.</span> <span class="venue">Journal of Epidemiology and Community Health, 59(7), 540–541</span>.</div></li>
+      <li><div>Muntaner, C.*, Li, Y., Xue, X. N., O’Campo, P., <strong class="me">Chung, H.</strong>, &amp; Eaton, W. W. (2004). <span class="title">Work organization, area labor-market characteristics, and depression among US nursing home workers: a cross-classified multilevel analysis.</span> <span class="venue">International Journal of Occupational and Environmental Health, 10(4), 392–400</span>.</div></li>
+    </ol>
+      <p class="sub-head">Editorials &amp; essays</p>
+    <ol class="pub-list">
+      <li><div><strong class="me">Chung, H.</strong>, &amp; Muntaner, C. (2026). <span class="title">Health systems as contested ground.</span> <span class="venue">Health Politics, 1(2), e006</span>. <a class="doi" href="https://hpolitics.org/journal/view.php?number=6" target="_blank" rel="noopener">FULL TEXT ↗</a> <span class="lang">Editorial</span></div></li>
+      <li><div><strong class="me">Chung, H.</strong>, &amp; Muntaner, C. (2026). <span class="title">Why health politics? Power, institutions, and the political determinants of health in an age of converging crises.</span> <span class="venue">Health Politics, 1(1), e002</span>. <a class="doi" href="https://hpolitics.org/journal/view.php?number=2" target="_blank" rel="noopener">FULL TEXT ↗</a> <span class="lang">Inaugural essay</span></div></li>
+      <li><div><strong class="me">Chung, H.</strong>, &amp; Muntaner, C. (2026). <span class="title">Introducing Health Politics.</span> <span class="venue">Health Politics, 1(1), e001</span>. <a class="doi" href="https://hpolitics.org/journal/view.php?number=1" target="_blank" rel="noopener">FULL TEXT ↗</a> <span class="lang">Editorial</span></div></li>
+    </ol>
+      <p class="sub-head">Peer-reviewed articles · Korean journals</p>
+    <ol class="pub-list">
+      <li><div>Ko, S., Cha, S., Yu, S., Moon, D., &amp; <strong class="me">Chung, H.</strong>* (2025). <span class="title">감정노동이 근로자의 수면장애에 미치는 영향: 직종에 따른 분석을 중심으로.</span> <span class="venue">대한보건연구, 51(4), 227–239</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Bak, D., Ahn, Y., &amp; <strong class="me">Chung, H.</strong>* (2025). <span class="title">요양병원의 디지털기술 도입을 위한 법적 과제.</span> <span class="venue">법학연구, 35(3), 227–253</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Son, S., Kim, J., Ryu, K., &amp; <strong class="me">Chung, H.</strong>* (2023). <span class="title">스마트 건강도시 개념 구성을 위한 개념도 그리기: 사전연구.</span> <span class="venue">도시건강연구, 2(2), 5–15</span>. <a class="doi" href="https://doi.org/10.59013/auh.2023.2.2.001" target="_blank" rel="noopener">DOI ↗</a> <span class="lang">Korean</span></div></li>
+      <li><div>Bae, G., Yang, J., Song, K., Kim, J., Lee, J., &amp; <strong class="me">Chung, H.</strong>* (2022). <span class="title">보건복지 분야를 중심으로 본 국내 리빙랩 연구의 현황: 주제범위 문헌고찰.</span> <span class="venue">보건사회연구, 42(4), 248–265</span>. <a class="doi" href="https://doi.org/10.15709/hswr.2022.42.4.248" target="_blank" rel="noopener">DOI ↗</a> <span class="lang">Korean</span></div></li>
+      <li><div>Jung, Y., Lee, J. K., Moon, D., Park, I., &amp; <strong class="me">Chung, H.</strong>* (2022). <span class="title">국가별 산모·영유아 건강관리 서비스 비교 분석.</span> <span class="venue">사회보장연구, 38(4), 101–138</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Moon, D., Yu, S., Kim, S., <strong class="me">Chung, H.</strong>*, &amp; Noh, J.-W. (2021). <span class="title">서울형 유급병가지원 제도를 위한 논리모형 설계와 초기 평가 결과.</span> <span class="venue">보건사회연구, 41(3), 269–297</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Kim, B., &amp; <strong class="me">Chung, H.</strong>* (2021). <span class="title">중복피해 관점에서의 청소년기 폭력피해 경험과 성피해 경험과의 연관성.</span> <span class="venue">보건과 사회과학, 56(1), 51–85</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Park, I.-H., Moon, D., Lee, J. K., Oh, I., &amp; <strong class="me">Chung, H.</strong>* (2020). <span class="title">국내 산모·영유아 건강관리 지원제도 분석.</span> <span class="venue">사회보장연구, 36(4), 1–32</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Jung, H. W., Park, S. Y., Sohn, M., &amp; <strong class="me">Chung, H.</strong>* (2020). <span class="title">다중흐름모형을 적용한 서울형 유급병가 정책 도입과정에 관한 연구.</span> <span class="venue">보건행정학회지, 30(3), 286–300</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Sohn, M., Kim, Y., Chang, J., &amp; <strong class="me">Chung, H.</strong>* (2019). <span class="title">국민건강보험 맞춤형 코호트 DB를 이용한 한국의 상병수당 및 유급병가를 위한 소요재정추계.</span> <span class="venue">보건경제와 정책연구, 25(2), 1–28</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Jung, H. W., Sohn, M. S., &amp; <strong class="me">Chung, H.</strong>* (2019). <span class="title">한국 상병수당제도 및 전달체계 설계연구: 주요 선진국과의 제도 비교를 중심으로.</span> <span class="venue">보건행정학회지, 29(2), 112–129</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Moon, D., &amp; <strong class="me">Chung, H.</strong>* (2018). <span class="title">두 번의 경제위기와 실업, 노동빈곰, 그리고 젠더: 한국 자살 위험양식의 역동적 변화에 대한 시론.</span> <span class="venue">한국사회정책, 25(4), 233–263</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Moon, D., &amp; <strong class="me">Chung, H.</strong>* (2018). <span class="title">보건의료공공성을 넘어 건강공공성으로: ‘건강안보’와 ‘사회적 대화’를 중심으로.</span> <span class="venue">보건행정학회지, 28(4), 329–338</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Goh, Y.-G., Heo, H.-H., &amp; <strong class="me">Chung, H.</strong>* (2018). <span class="title">Scoping review of theory-based empirical studies on health service utilization.</span> <span class="venue">대한보건연구, 44(3), 105–217</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Seo, W.-Y., Moon, D., &amp; <strong class="me">Chung, H.</strong>* (2017). <span class="title">의료서비스에 대한 복지태도의 결정요인.</span> <span class="venue">보건행정학회지, 27(4), 324–335</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Heo, H.-H., Che, X. H., Jeong, W. J., &amp; <strong class="me">Chung, H.</strong>* (2017). <span class="title">사회경제적 취약계층의 건강불평등 해소를 위한 지역사회 건강증진사업 평가.</span> <span class="venue">보건교육건강증진학회지, 34(2), 1–13</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Heo, H.-H., Kim, J. S., Che, X., &amp; <strong class="me">Chung, H.</strong>* (2016). <span class="title">도시 빈곰지역 주민의 주변화와 건강불평등의 관계에 대한 질적 연구.</span> <span class="venue">보건과 사회과학, 43, 5–32</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Jung, T.-Y., Goh, Y.-G., &amp; <strong class="me">Chung, H.</strong>* (2016). <span class="title">항노화산업 활성화 방안에 관한 연구.</span> <span class="venue">보건의료산업학회지, 10(2), 145–154</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Kim, J. S., Heo, H.-H., &amp; <strong class="me">Chung, H.</strong>* (2015). <span class="title">지역사회기반 참여와 사회생태적 관점에서 본 국내 쪽방지역 주민의 건강증진 역량강화 방안.</span> <span class="venue">보건교육건강증진학회지, 32(4), 79–92</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Jeon, J., Che, X. H., &amp; <strong class="me">Chung, H.</strong>* (2015). <span class="title">쪽방 거주 장애인의 삶의 경험에 관한 연구.</span> <span class="venue">사회복지연구, 46(2), 5–35</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Heo, H.-H., Che, X. H., &amp; <strong class="me">Chung, H.</strong>* (2015). <span class="title">사회생태적 모델을 적용한 쪽방 주민의 정신건강 영향요인 분석.</span> <span class="venue">보건교육건강증진학회지, 32(2), 39–52</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Goh, Y.-G., Jung, T.-Y., &amp; <strong class="me">Chung, H.</strong>* (2015). <span class="title">과학기술지식정보서비스의 보건의료 분야 연구·개발과제.</span> <span class="venue">보건행정학회지, 25(2), 71–79</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Kim, S., &amp; <strong class="me">Chung, H.</strong>* (2015). <span class="title">게임중독에 영향을 미치는 청소년의 가정환경요인 분석.</span> <span class="venue">보건과 사회과학, 38, 5–36</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Choi, H., Kim, M.-H., &amp; <strong class="me">Chung, H.</strong>* (2014). <span class="title">결핵의 사회적 결정요인 관점에서 바라본 한국 결핵 연구의 현재와 향후 방향.</span> <span class="venue">보건과 사회과학, 35, 145–174</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Byeon, J., Jung, Y., &amp; <strong class="me">Chung, H.</strong>* (2012). <span class="title">우리나라 성인 의약품 사용 양상.</span> <span class="venue">보건행정학회지, 22(4), 579–596</span>. <span class="lang">Korean</span></div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, Byeon, J., &amp; Lee, K. (2011). <span class="title">경제 위기와 건강: 한국사회의 변화에 대한 묘사적 연구.</span> <span class="venue">아세아연구, 54(2), 111–152</span>. <span class="lang">Korean</span></div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, Muntaner, C., &amp; EMCONET (2011). <span class="title">고용관계와 건강불평등: 경로와 메커니즘에 관한 탐색.</span> <span class="venue">한국사회정책, 18(2), 245–287</span>. <span class="lang">Korean</span></div></li>
+      <li><div><strong class="me">Chung, H.</strong>*, &amp; Muntaner, C. (2008). <span class="title">플라시보 의료개혁? – 오바마, 클린턴, 그리고 미국 보건의료개혁의 전망.</span> <span class="venue">사회복지와 노동, 12, 142–153</span>. <span class="lang">Korean</span></div></li>
+    </ol>
+      <p class="sub-head">Books &amp; translations</p>
+    <ol class="pub-list">
+      <li><div><strong class="me">Chung, H.</strong>, et al. (Co-translators) (2021). <span class="title">사회역학 [Social Epidemiology].</span> <span class="venue">서울: 한울</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Co-author (incl. <strong class="me">Chung, H.</strong>) (2020). <span class="title">코로나 0년, 초회복의 시작: 파국을 뛰어넘는 새로운 시대의 상상력.</span> <span class="venue">서울: 어크로스</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Co-author (incl. <strong class="me">Chung, H.</strong>) (2019). <span class="title">(대한민국 미래를 여는) 혁신 리포트: 각 분야 전문가 46인이 전망한 2020 대한민국.</span> <span class="venue">서울: 윤성사</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Kim, S. B., Lee, T., Shin, B., et al., <strong class="me">Chung, H.</strong>, et al. (2016). <span class="title">신흥안보의 미래전략: 비전통 안보론을 넘어서.</span> <span class="venue">서울: 사회평론</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Kang, M., Ahn, J., Kwon, H., et al., <strong class="me">Chung, H.</strong>, et al. (2012). <span class="title">한국복지국가의 정치경제.</span> <span class="venue">서울: 아세아연구소 출판부</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Cho, K., Kim, C.-Y., <strong class="me">Chung, H.</strong>, Lim, J., &amp; Kim, C.-B. (2012). <span class="title">무상의료란 무엇인가: 모두 건강한 99퍼센트의 나라 만들기 프로젝트.</span> <span class="venue">서울: 이매진</span>. <span class="lang">Korean</span></div></li>
+      <li><div>Kim, M.-H., et al. (incl. <strong class="me">Chung, H.</strong>) (2010). <span class="title">의료 사유화의 불편한 진실.</span> <span class="venue">서울: 후마니타스</span>. <span class="lang">Korean</span></div></li>
+    </ol>
+      <p class="sub-head">Book chapters</p>
+    <ol class="pub-list">
+      <li><div>Muntaner, C., Ng, E., <strong class="me">Chung, H.</strong>, &amp; Eaton, W. W. (2026). <span class="title">Mental health.</span> In B. S. Levy &amp; V. W. Sidel (Eds.), <em>Social Injustice and Public Health</em> (3rd ed.). Oxford University Press.</div></li>
+      <li><div>Muntaner, C., et al. (incl. <strong class="me">Chung, H.</strong>) (2020). <span class="title">Precarious employment conditions, exploitation, and health in two global regions: Latin America and the Caribbean and East Asia.</span> In T. Theorell (Ed.), <em>Handbook of Socioeconomic Determinants of Occupational Health</em>. Springer.</div></li>
+      <li><div>Muntaner, C., Ng, E., <strong class="me">Chung, H.</strong>, &amp; Eaton, W. W. (2019). <span class="title">Mental health.</span> In B. S. Levy &amp; V. W. Sidel (Eds.), <em>Social Injustice and Public Health</em> (2nd ed.). Oxford University Press.</div></li>
+      <li><div>Afzal, A., Muntaner, C., <strong class="me">Chung, H.</strong>, Mahmood, Q., Ng, E., &amp; Schrecker, T. (2017). <span class="title">Complementarities and/or contradictions? Scoping the health dimensions of “flexicurity” labour market policies.</span> In I. L. Bourgeault et al. (Eds.), <em>Population Health in Canada: Issues, Research, and Action</em>. Canadian Scholars.</div></li>
+      <li><div>Muntaner, C., Shahidy, F. V., Kim, I.-H., <strong class="me">Chung, H.</strong>, &amp; Benach, J. (2016). <span class="title">Populations at special health risk: workers.</span> <em>International Encyclopedia of Public Health</em>. Elsevier.</div></li>
+      <li><div><strong class="me">Chung, H.</strong>, Muntaner, C., Benach, J., &amp; the EMCONET Network (2014). <span class="title">Employment relations and global health: a typological study of world labor markets.</span> In V. Navarro &amp; C. Muntaner (Eds.), <em>The Financial and Economic Crises and Their Impact on Health and Social Well-Being</em>. Baywood.</div></li>
+      <li><div>Muntaner, C., Rai, N., Ng, E., &amp; <strong class="me">Chung, H.</strong> (2014). <span class="title">Social class, politics, and the spirit level: why income inequality remains unexplained and unsolved.</span> In V. Navarro &amp; C. Muntaner (Eds.), <em>The Financial and Economic Crises and Their Impact on Health and Social Well-Being</em>. Baywood.</div></li>
+      <li><div>Ng, E., Muntaner, C., <strong class="me">Chung, H.</strong>, &amp; Eaton, W. W. (2014). <span class="title">Socioeconomic status and mental illness.</span> <em>The Wiley Blackwell Encyclopedia of Health, Illness, Behavior, and Society</em>, 2232–2238.</div></li>
+      <li><div>Muntaner, C., Ng, E., <strong class="me">Chung, H.</strong>, &amp; Eaton, W. W. (2013). <span class="title">Mental health.</span> In B. S. Levy &amp; V. W. Sidel (Eds.), <em>Social Injustice and Public Health</em>. Oxford University Press.</div></li>
+      <li><div>Muntaner, C., Borrell, C., Ng, E., <strong class="me">Chung, H.</strong>, Espelt, A., Rodriguez-Sanz, M., Benach, J., &amp; O’Campo, P. (2012). <span class="title">Locating politics in social epidemiology.</span> In P. O’Campo &amp; J. R. Dunn (Eds.), <em>Rethinking Social Epidemiology: Towards a Science of Change</em>. Springer.</div></li>
+      <li><div>Muntaner, C., Armada, F., &amp; <strong class="me">Chung, H.</strong> (2011). <span class="title">Barrio Adentro and health care in Venezuela.</span> In J. Eastwood &amp; T. Poniah (Eds.), <em>The Revolution in Venezuela</em>. Rockefeller Center for Latin American Studies.</div></li>
+      <li><div>Muntaner, C., &amp; <strong class="me">Chung, H.</strong> (2010). <span class="title">Teaching social inequalities in health: institutional barriers and creative solutions.</span> In R. Bhatia &amp; R. Hofrichter (Eds.), <em>Tackling Health Inequities through Public Health Practice</em>. Oxford University Press.</div></li>
+      <li><div>Muntaner, C., <strong class="me">Chung, H.</strong>, Borrell, C., &amp; Benach, J. (2010). <span class="title">Class and psychiatric disorders.</span> In R. Bhatia &amp; R. Hofrichter (Eds.), <em>Tackling Health Inequities through Public Health Practice</em>. Oxford University Press.</div></li>
+      <li><div>Muntaner, C., <strong class="me">Chung, H.</strong>, &amp; Kim, I.-H. (2009). <span class="title">Populations at special health risk: workers.</span> In K. Heggenhougen (Ed.), <em>International Encyclopedia of Public Health</em>. Elsevier.</div></li>
+      <li><div>Benach, J., Muntaner, C., Solar, O., Quinlan, M., <strong class="me">Chung, H.</strong>, Vergara Duarte, M., &amp; Santana, W. (2009). <span class="title">The global impact of employment and work on health inequalities: the need for a new policy agenda.</span> In J. Borrell Fontelles (Ed.), <em>Dilemmas in Globalization</em>. The European Parliament.</div></li>
+      <li><div>Muntaner, C., <strong class="me">Chung, H.</strong>, Borrell, C., &amp; Benach, J. (2008). <span class="title">Class and psychiatric disorders.</span> In K. Cohen &amp; S. Timimi (Eds.), <em>Liberatory Psychiatry</em> (pp. 131–146). Cambridge University Press.</div></li>
+      <li><div>Muntaner, C., Borrell, C., &amp; <strong class="me">Chung, H.</strong> (2007). <span class="title">Class relations, economic inequality, and mental health.</span> In W. R. Avison, J. McLeod, &amp; B. A. Pescosolido (Eds.), <em>Mental Health, Social Mirror</em> (pp. 127–142). Springer.</div></li>
+      <li><div>Muntaner, C., Schooler, C., Pulver, A. E., &amp; <strong class="me">Chung, H.</strong> (2007). <span class="title">Social class trajectory and psychotic disorders.</span> In D. P. French (Ed.), <em>Schizophrenic Psychology: New Research</em>. Nova Science.</div></li>
+      <li><div>Muntaner, C., Borrell, C., Kunst, A., <strong class="me">Chung, H.</strong>, Benach, J., &amp; Ibrahim, S. (2006). <span class="title">Social class, welfare state and health.</span> In D. Raphael, T. Bryant, &amp; M. Rioux (Eds.), <em>Staying Alive: Critical Perspectives on Health, Illness, and Health Care</em>. Canadian Scholars’ Press.</div></li>
+    </ol>
+      <p class="note">Work in progress and manuscripts under review are listed in the CV.</p>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <a class="brand" href="index.html"><span class="dot" aria-hidden="true"></span><span>Haejoo Chung<small>Health &amp; Social Policy</small></span></a>
+      <div class="foot-links">
+        <a href="index.html#about">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="members.html">Members</a>
+        <a href="https://scholar.google.com/citations?user=x5I8GRIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="mailto:hpolicy@korea.ac.kr">Email</a>
+      </div>
+    </div>
+    <div class="rule short" style="margin-top:32px"></div>
+    <div class="foot-bottom">© <span id="yr"></span> Haejoo Chung · Division of Health Policy &amp; Management, Korea University</div>
+  </div>
+</footer>
+<script>
+var yr=document.getElementById('yr'); if(yr) yr.textContent=new Date().getFullYear();
+var btn=document.querySelector('.menu-btn'), menu=document.getElementById('primary-menu');
+if(btn&&menu){
+  btn.addEventListener('click',function(){var o=menu.classList.toggle('open');btn.setAttribute('aria-expanded',o);});
+  menu.addEventListener('click',function(e){if(e.target.tagName==='A'){menu.classList.remove('open');btn.setAttribute('aria-expanded',false);}});
+}
+var els=document.querySelectorAll('.reveal');
+if('IntersectionObserver' in window && els.length){
+  var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.08,rootMargin:'0px 0px -30px 0px'});
+  els.forEach(function(el){io.observe(el);});
+}else{els.forEach(function(el){el.classList.add('in');});}
+</script>
+</body>
+</html>
