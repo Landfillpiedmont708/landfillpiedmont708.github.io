@@ -56,7 +56,7 @@ nav a.active{color:var(--crimson)} nav a.active::after{width:100%}
 section{padding:52px 0;border-top:1px solid var(--line)}
 .model-figure{border:1px solid var(--line);border-radius:14px;background:var(--paper-2);padding:20px 18px;overflow-x:auto}
 .model-figure svg{display:block;width:100%;min-width:820px;max-width:1120px;height:auto;margin:0 auto}
-.model-cap{color:var(--muted);font-size:13.5px;margin-top:13px;max-width:76ch;line-height:1.5}
+.model-cap{color:var(--muted);font-size:13.5px;margin:14px auto 0;max-width:1120px;line-height:1.6;text-wrap:pretty;word-break:keep-all;overflow-wrap:break-word}
 .tagset{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
 .tag{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;color:var(--slate);border:1px solid var(--line);border-radius:20px;padding:5px 13px;background:var(--paper-2)}
 .card-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
@@ -147,11 +147,9 @@ footer .brand{color:#fff} footer .brand small{color:#8a8a85}
       <button class="menu-btn" aria-expanded="false" aria-controls="primary-menu">Menu</button>
       <ul id="primary-menu">
         <li><a href="index.html#about">About</a></li>
-        <li><a href="index.html#research">Research</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="publications.html">Publications</a></li>
         <li><a href="members.html" class="active" aria-current="page">Members</a></li>
-        <li><a href="index.html#teaching">Teaching</a></li>
         <li><a href="index.html#contact">Contact</a></li>
       </ul>
     </nav>
